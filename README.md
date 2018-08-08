@@ -1,6 +1,6 @@
-# egg.js
+# Eggjs
 
-
+A Egg.js build App
 
 ## QuickStart
 

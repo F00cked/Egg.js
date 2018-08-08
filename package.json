@@ -1,13 +1,11 @@
 {
-  "name": "egg.js",
+  "name": "Eggjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Egg.js build App",
   "private": true,
   "dependencies": {
     "egg": "^2.2.1",
-    "egg-mysql": "^3.0.0",
-    "egg-scripts": "^2.5.0",
-    "egg-view-nunjucks": "^2.2.0"
+    "egg-scripts": "^2.5.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -23,8 +21,8 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-egg.js",
-    "stop": "egg-scripts stop --title=egg-server-egg.js",
+    "start": "egg-scripts start --daemon --title=egg-server-Eggjs",
+    "stop": "egg-scripts stop --title=egg-server-Eggjs",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
@@ -41,6 +39,6 @@
     "type": "git",
     "url": ""
   },
-  "author": "",
+  "author": "whoami",
   "license": "MIT"
 }
